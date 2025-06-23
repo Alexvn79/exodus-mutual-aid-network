@@ -35,14 +35,14 @@ Exodus 2.0 is designed to solve some big problems:
 ## Table of Contents:
 
 - [Repository Structure](#repository_structure)
-- [Usage](###usage)
+- [Usage](#usage)
 - [Documentation](#documentation)
 - [Docker](#docker)
 - [Help with Manim](#help-with-manim)
 - [Contributing](#contributing)
 - [License](#license)
 
-# Repository Structure
+## Repository Structure
 - `docs/1_Core_Documents/` - Foundation and overview materials
 - `docs/2_Technical_Documentation/` - Technical specifications and architecture
 - `docs/3_Implementation/` - Implementation guides and practical materials
