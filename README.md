@@ -29,6 +29,7 @@ Exodus 2.0 is designed to solve some big problems:
 - `docs/4_Research_Theory/` - Academic research and theoretical foundation
 - `docs/5_Additional_Materials/` - Supporting context and perspectives
 - `docs/Reference/` - Glossaries and reference materials
+- `images/` - Project visual media
 
 ## Quick Start
 1. Begin with Core Documents to understand the basic concepts
