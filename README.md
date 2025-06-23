@@ -23,7 +23,7 @@ Welcome to the official documentation repository for Exodus 2.0, a digital socia
 ## Table of Contents:
 
 - [Overview](#what-is-exodus)
-- [Repository Structure](#repository-structure)
+- [Repository Structure](#repository-structure) <br />
   Documentation: <br />
 - [Core documents](#1-core-documents)
 - [Technical documentation](#2-technical-documentation)
