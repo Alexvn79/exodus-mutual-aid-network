@@ -1,0 +1,23 @@
+# System files
+.DS_Store        # macOS system files
+Thumbs.db        # Windows thumbnail cache files
+
+# Temporary files and backups
+*.tmp            # Temporary files
+*.bak            # Backup files
+*~               # Backup files created by some editors (e.g., Emacs) [4]
+.#*              # Temporary files created by some editors (e.g., Emacs) [4]
+.*.sw?          # Swap files created by Vim [4]
+
+# Log files
+*.log            # Log files
+
+# IDE/Editor specific files (uncomment if you use these IDEs/editors)
+#.idea/           # IntelliJ IDEA project files
+#.vscode/         # VS Code project files
+# *.sublime-workspace # Sublime Text workspace files
+# *.sublime-project   # Sublime Text project files
+
+# Other common files you might want to ignore
+#.env             # Environment variables (if you happen to use them for local setup) [2]
+# secrets.txt      # Sensitive data
