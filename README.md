@@ -6,7 +6,7 @@
 <kbd><img src="docs/images/Example.png" width="500" /></kbd>
 </details>//
 
-//Баджи//
+   <a href="http://choosealicense.com/licenses/agpl-3.0/"><img src="https://img.shields.io/badge/license-AGPL--3.0-red.svg?style=flat" alt="AGPL-3.0 License"></a>
 
 # Exodus 2.0 Documentation
 Welcome to the official documentation repository for Exodus 2.0, a digital social innovation for decentralized trust networks.
