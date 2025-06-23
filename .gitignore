@@ -13,11 +13,11 @@ Thumbs.db        # Windows thumbnail cache files
 *.log            # Log files
 
 # IDE/Editor specific files (uncomment if you use these IDEs/editors)
-#.idea/           # IntelliJ IDEA project files
-#.vscode/         # VS Code project files
-# *.sublime-workspace # Sublime Text workspace files
-# *.sublime-project   # Sublime Text project files
+.idea/           # IntelliJ IDEA project files
+.vscode/         # VS Code project files
+*.sublime-workspace # Sublime Text workspace files
+*.sublime-project   # Sublime Text project files
 
 # Other common files you might want to ignore
-#.env             # Environment variables (if you happen to use them for local setup) [2]
-# secrets.txt      # Sensitive data
+.env             # Environment variables (if you happen to use them for local setup) [2]
+secrets.txt      # Sensitive data
