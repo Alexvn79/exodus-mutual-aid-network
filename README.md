@@ -8,6 +8,9 @@
 
 //Баджи//
 
+# Exodus 2.0 Documentation
+Welcome to the official documentation repository for Exodus 2.0, a digital social innovation for decentralized trust networks.
+
 # What is Exodus 2.0?
 Imagine a social network where people help each other directly, without needing a big company in the middle. That's DSI Exodus 2.0. It's a decentralized, peer-to-peer (P2P) network built on the idea of mutual aid and cooperation among people who already trust each other, like friends and family. Think of it as a "smart notebook" that helps you keep track of who needs help, who offers it, and who fulfills their promises.   
 
@@ -18,9 +21,6 @@ Exodus 2.0 is designed to solve some big problems:
 - Zero transaction costs: It aims to create new ways of cooperating where the costs of transactions are almost zero.   
 - Build a strong reputation: By helping others and fulfilling your commitments, you build a visible reputation within the network. This reputation helps you get support when you need it.   
 - Community-driven: It's a self-organizing system where the community manages itself, reducing the need for central control.   
-
-# Exodus 2.0 Documentation
-Welcome to the official documentation repository for Exodus 2.0, a digital social innovation for decentralized trust networks.
 
 ## Repository Structure
 - `docs/1_Core_Documents/` - Foundation and overview materials
