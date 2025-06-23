@@ -11,7 +11,7 @@
    <a href="https://exodus.tilda.ws/exodus20breef"><img src="https://img.shields.io/badge/Exodus_2.0-breef-green.svg?style=flat" alt="Exodus 2.0 breef"></a>
    <a href="http://choosealicense.com/licenses/agpl-3.0/"><img src="https://img.shields.io/badge/license-AGPL--3.0-red.svg?style=flat" alt="AGPL-3.0 License"></a>
    <a href="https://drive.google.com/drive/folders/13CP_gggqIFxYNSR7QphnjMta-S0DmrVk?usp=sharing"><img src="https://img.shields.io/badge/docs-passing-dark_green.svg" alt="Documentation Status"></a>
-    <a href="https://drive.google.com/drive/folders/13CP_gggqIFxYNSR7QphnjMta-S0DmrVk?usp=sharing"><img src="https://img.shields.io/badge/Code-searching_for_developer-dark_green.svg" alt="Code Status"></a>
+    <a href="https://drive.google.com/drive/folders/13CP_gggqIFxYNSR7QphnjMta-S0DmrVk?usp=sharing"><img src="https://img.shields.io/badge/code-searching_for_developer-dark_green.svg" alt="Code Status"></a>
    <br />
    <br />
    <i>Digital Societal innovation</i>
