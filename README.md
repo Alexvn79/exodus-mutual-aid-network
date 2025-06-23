@@ -8,10 +8,10 @@
 
 //Баджи//
 
-#What is Exodus 2.0?
+# What is Exodus 2.0?
 Imagine a social network where people help each other directly, without needing a big company in the middle. That's DSI Exodus 2.0. It's a decentralized, peer-to-peer (P2P) network built on the idea of mutual aid and cooperation among people who already trust each other, like friends and family. Think of it as a "smart notebook" that helps you keep track of who needs help, who offers it, and who fulfills their promises.   
 
-#Why do we need it?
+# Why do we need it?
 Exodus 2.0 is designed to solve some big problems:
 - No more trust issues: Unlike many systems where you worry about fraud, Exodus 2.0 is built so that harm is virtually impossible. It doesn't handle money directly, and all contributions are voluntary, so you don't have to constantly "verify" if someone is trustworthy in the traditional sense. The system's design makes it reliable by default.   
 - Easy mutual support: It helps people formalize their existing connections to create a wider network of support. If you need help, you can request it, and others in your network can offer assistance.   
