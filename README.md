@@ -207,7 +207,7 @@ If you're interested in helping out with the development cycle, feel free to tac
 </details>
 
 <details>
-<summary>Contributing</summary>
+<summary>Code of Conduct</summary>
 
    ## Code of Conduct
       
