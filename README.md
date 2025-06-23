@@ -195,11 +195,19 @@ This section provides essential reference materials to clarify terminology and o
     *   Comprehensive explanations
 </details>
 
+<details>
+<summary>Contributing</summary>
+
    ## Contributing
 
 First, thank you for considering contributing to Exodus. We value contributions of any size or type from anyone! The smallest of fixes can make the biggest difference. Please dive in. Feel free to ask questions on the 5061197@gmail.com email, open an issue, or send a pull request on GitHub.
 We follow an agile development process. If you run into a bug or have a problem, the best action is to open an issue on GitHub (please search for related closed issues first).
 If you're interested in helping out with the development cycle, feel free to tackle open issues. If you see something you'd like to help with, reach out to us on 5061197@gmail.com to coordinate.
+
+</details>
+
+<details>
+<summary>Contributing</summary>
 
    ## Code of Conduct
       
@@ -235,6 +243,9 @@ Using welcoming and inclusive language. We’re accepting of all who wish to tak
 - Sustained disruption of online community discussions, in-person presentations, or other in-person events
 - Continued one-on-one communication after requests to cease
 - Other conduct that is inappropriate for a professional audience including people of many different backgrounds Community members asked to stop any inappropriate behavior are expected to comply immediately.
+
+</details>
+
    ## License
 By contributing to DSI Exodus 2.0, you agree that your contributions will be licensed under the project's GNU Affero General Public License v3.0. DSI Exodus 2.0 is open source and explicitly free for copying, modification, and redistribution. More info you can find in LICENSE.txt.
 
