@@ -12,12 +12,12 @@
 Welcome to the official documentation repository for Exodus 2.0, a digital social innovation for decentralized trust networks.
 
 ## Repository Structure
-- `1_Core_Documents/` - Foundation and overview materials
-- `2_Technical_Documentation/` - Technical specifications and architecture
-- `3_Implementation/` - Implementation guides and practical materials
-- `4_Research_Theory/` - Academic research and theoretical foundation
-- `5_Additional_Materials/` - Supporting context and perspectives
-- `Reference/` - Glossaries and reference materials
+- `docs/1_Core_Documents/` - Foundation and overview materials
+- `docs/2_Technical_Documentation/` - Technical specifications and architecture
+- `docs/3_Implementation/` - Implementation guides and practical materials
+- `docs/4_Research_Theory/` - Academic research and theoretical foundation
+- `docs/5_Additional_Materials/` - Supporting context and perspectives
+- `docs/Reference/` - Glossaries and reference materials
 
 ## Quick Start
 1. Begin with Core Documents to understand the basic concepts
@@ -27,9 +27,8 @@ Welcome to the official documentation repository for Exodus 2.0, a digital socia
 
 ---
 
-# 1_Core_Documents/README.md
+#1 Core Documents
 
-# Core Documents
 Essential materials defining Exodus 2.0's vision, mechanisms, and features.
 
 ## Contents
@@ -59,16 +58,8 @@ Essential materials defining Exodus 2.0's vision, mechanisms, and features.
 3. Review Unique Features
 4. Finish with Current Status
 
----
+#2 Technical Documentation
 
-# 2_Technical_Documentation/README.md
-
-# Technical Documentation
-Detailed technical specifications and architectural documentation.
-
-### `2_Technical_Documentation/README.md`
-
-# Technical Documentation
 Detailed technical specifications and architectural documentation for DSI Exodus 2.0.
 
 This section is vital for developers and architects. It delves into the underlying structure and technical design of Exodus 2.0, explaining how its unique "trust-irrelevant" and self-organizing properties are implemented at a technical level.
@@ -94,11 +85,8 @@ This section is vital for developers and architects. It delves into the underlyi
 *   **Review `2.2_Network_Architecture.pdf`**: Gain insights into the overall system design and how components interact in a decentralized manner.
 *   **Consult `2.3_Reference_Registry_Guide.pdf`**: Learn about the unique P2P registry structure, how data is organized (e.g., using Google Sheets as a distributed ledger), and access protocols. This is key to understanding the "trust-free" data handling.[1, 1, 1]
 
----
+#3 Implementation
 
-### `3_Implementation/README.md`
-
-# Implementation
 Practical guides and integration materials for deploying and interacting with DSI Exodus 2.0.
 
 This section provides hands-on information for developers looking to set up, configure, and integrate with Exodus 2.0. It covers the practical aspects of bringing the theoretical framework to life.
@@ -124,11 +112,7 @@ This section provides hands-on information for developers looking to set up, con
 2.  **Set up `3.2_Google_Integration.pdf`**: Understand how Exodus 2.0 leverages Google services for its distributed registry and AI capabilities. This is crucial for running the system.[1]
 3.  **Reference `3.3_Use_Cases.pdf`**: Explore practical examples and scenarios to inspire your own applications or contributions.
 
----
-
-### `4_Research_Theory/README.md`
-
-# Research & Theory
+#4 Research & Theory
 The academic foundation and theoretical framework underpinning DSI Exodus 2.0.
 
 This section is for developers and researchers interested in the profound mathematical and sociological principles that guarantee Exodus 2.0's unique properties, such as its "trust irrelevance" and "autocatalytic" growth. Understanding these theories provides deep insight into the system's inherent robustness and inevitability.
@@ -153,11 +137,8 @@ This section is for developers and researchers interested in the profound mathem
 *   **Explore `4.2_Trust_Paradox.pdf`**: Understand the philosophical and practical implications of a system where trust verification is structurally unnecessary.
 *   **Study `4.3_Network_Growth_Theory.pdf`**: Analyze the detailed models of network expansion and how personal relationships drive robust, scalable collaboration.
 
----
+#5 Additional Materials
 
-### `5_Additional_Materials/README.md`
-
-# Additional Materials
 Contextual and supplementary information about DSI Exodus 2.0.
 
 This section provides broader context for Exodus 2.0, exploring its historical, philosophical, and cultural underpinnings. While not directly technical, these materials offer valuable insights into the project's vision for societal transformation, which can inspire and guide contributors.
@@ -182,10 +163,6 @@ This section provides broader context for Exodus 2.0, exploring its historical, 
 *   **Start with `5.1_Historical_Context.pdf`**: Understand the lineage of mutual aid and how Exodus 2.0 builds upon past models.
 *   **Explore `5.2_Philosophical_Background.pdf`**: Grasp the core ideas and ethical considerations driving the project.
 *   **Consider `5.3_Cultural_Perspectives.pdf`**: Reflect on the broader societal implications and potential global impact of this innovation.
-
----
-
-### `Reference/README.md`
 
 # Reference Materials
 Glossaries and comprehensive reference documents for DSI Exodus 2.0.
@@ -213,9 +190,3 @@ This section provides essential reference materials to clarify terminology and o
 *   **Reference `Full_Presentation.pdf`**: For a complete, high-level overview of the entire system, often with visual aids, useful for onboarding or quick refreshers.
 *   **Use as supporting material**: These documents serve as valuable supplementary resources for understanding other parts of the documentation.
 
----
-
-### Suggested `.gitignore` (Root Directory)
-
-For a documentation-heavy repository like this, consider a `.gitignore` file that excludes common editor artifacts, temporary files, and any local build outputs if you generate PDFs or other formats from Markdown.
- 
