@@ -2,7 +2,7 @@
 <kbd><img src="docs/images/MainPage.png" /></kbd></br></br>
 
 //<details>
-<summary>Problem</summary>
+<summary>Documentation</summary>
 <kbd><img src="docs/images/Example.png" width="500" /></kbd>
 </details>//
 <p align="center">
@@ -36,7 +36,10 @@ Welcome to the official documentation repository for Exodus 2.0, a digital socia
 - [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)
 - [License](#license)
-
+  
+<details>
+<summary>Overview</summary>
+   
 ## What is Exodus
 
 Imagine a social network where people help each other directly, without needing a big company in the middle. That's DSI Exodus 2.0. It's a decentralized, peer-to-peer (P2P) network built on the idea of mutual aid and cooperation among people who already trust each other, like friends and family. Think of it as a "smart notebook" that helps you keep track of who needs help, who offers it, and who fulfills their promises.   
@@ -67,6 +70,11 @@ Exodus 2.0 is designed to solve some big problems:
 3. Refer to Implementation guides for practical application
 4. Explore Research & Theory for deeper understanding
 
+</details>
+
+<details>
+<summary>Documentation</summary>
+   
 ## 1 Core Documents
 
 Essential materials defining Exodus 2.0's vision, mechanisms, and features.
@@ -177,6 +185,7 @@ This section provides essential reference materials to clarify terminology and o
     *   Complete system overview
     *   Visual representations
     *   Comprehensive explanations
+</details>
 
    ## Contributing
 
