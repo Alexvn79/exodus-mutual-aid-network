@@ -198,7 +198,7 @@ This section provides essential reference materials to clarify terminology and o
 
 ## Usage
 
-*   **Consult glossaries (`Glossary_EN.pdf`, `Glossary_RU.pdf`)**: For quick clarification of specific terminology and concepts used throughout the documentation.
+*   **Consult glossaries (`Glossary_EN.pdf`)**: For quick clarification of specific terminology and concepts used throughout the documentation.
 *   **Reference `Full_Presentation.pdf`**: For a complete, high-level overview of the entire system, often with visual aids, useful for onboarding or quick refreshers.
 *   **Use as supporting material**: These documents serve as valuable supplementary resources for understanding other parts of the documentation.
 
