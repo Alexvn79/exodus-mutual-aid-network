@@ -1,0 +1,297 @@
+<h1>DSI Exodus 2.0 Widget: Technical Specification (Updated)</h1>
+
+<h2>1. System Overview</h2>
+
+<h3>1.1 Purpose</h3>
+
+<p>The DSI Exodus 2.0 Widget is a decentralized social organization tool that enables:
+- Formation of P2P trust networks
+- Management of mutual assistance processes
+- Organization of direct cooperation
+- Integration with AI for neutral analysis</p>
+
+<h3>1.2 Core Principles</h3>
+
+<ul>
+<li>Trust-free architecture</li>
+<li>Decentralized operation</li>
+<li>Empathy-driven connections</li>
+<li>Minimal data storage</li>
+<li>Complete transparency</li>
+</ul>
+
+<h3>1.3 Architectural Concept</h3>
+
+<p>The Exodus 2.0 Widget adopts a thin-client architecture. The widget itself acts as a lightweight shell, responsible for displaying a minimal core UI and handling user interactions. The bulk of data storage and processing resides in the Google Cloud. Data is dynamically fetched from the cloud via API requests based on user queries and interactions, allowing for a simplified client-side implementation and improved scalability.</p>
+
+<h2>2. Functional Requirements</h2>
+
+<h3>2.1 P2P Registry Formation</h3>
+
+<h4>Key Functions:</h4>
+
+<ul>
+<li>Automatic P2P connection creation</li>
+<li>Handshake chain tracking</li>
+<li>Connection verification</li>
+<li>Registry maintenance</li>
+</ul>
+
+<h4>Data Fetching:</h4>
+
+<ul>
+<li>On widget load: Fetch basic user information (ID, connections count).</li>
+<li>On user interaction (e.g., clicking on "My Connections"): Fetch detailed connection information (IDs, timestamps).</li>
+</ul>
+
+<h4>User Stories:</h4>
+
+<p>```
+As a new participant
+I want to join through invitation
+So that I'm connected to the trusted network</p>
+
+<p>As a participant
+I want to see my connection paths
+So that I understand my network position
+```</p>
+
+<h3>2.2 Mutual Assistance Organization</h3>
+
+<h4>Key Functions:</h4>
+
+<ul>
+<li>SOS request management with immediate crowdfunding</li>
+<li>Regular assistance tracking with periodic crowdfunding</li>
+<li>Obligation recording</li>
+<li>Fulfillment verification</li>
+<li>Dynamic progress display for all crowdfunding types</li>
+</ul>
+
+<h4>Data Fetching:</h4>
+
+<ul>
+<li>On SOS request: Fetch the list of participants in the contributor's circle.</li>
+<li>On progress update: Fetch the latest status of contributions.</li>
+</ul>
+
+<h4>User Stories:</h4>
+
+<p>```
+As a participant in need
+I want to create an SOS request
+So that network members can assist me automatically and dynamically</p>
+
+<p>As a helper
+I want to commit to obligations
+So that I can support other participants
+```</p>
+
+<h3>2.3 Cooperation System</h3>
+
+<h4>Key Functions:</h4>
+
+<ul>
+<li>Initiative creation with unique crowdfunding campaigns</li>
+<li>Crowdfunding management with unique campaign codes</li>
+<li>Need-capability matching</li>
+<li>Obligation clearing</li>
+</ul>
+
+<h4>Data Fetching:</h4>
+
+<ul>
+<li>On initiative creation: Fetch existing similar initiatives.</li>
+<li>On need-capability matching: Fetch potential collaborators' profiles and history.</li>
+</ul>
+
+<h4>User Stories:</h4>
+
+<p>```
+As an initiator
+I want to start a collaborative project
+So that others can join and contribute</p>
+
+<p>As a participant
+I want to find matching needs/capabilities
+So that I can engage in direct cooperation
+```</p>
+
+<h3>2.4 AI Integration</h3>
+
+<h4>Key Functions:</h4>
+
+<ul>
+<li>Data analysis</li>
+<li>Recommendation generation</li>
+<li>Pattern recognition</li>
+<li>Opportunity identification</li>
+<li>Selective campaign distribution and recipient filtering</li>
+</ul>
+
+<blockquote>
+  <p><strong>Important Note:</strong> The AI operates exclusively within the registry data provided by participants. For example, it facilitates finding collaborations by matching participants' needs and excess capabilities. All <em>actual execution</em> of collaborations (including any financial transactions or exchange of goods/services) occurs outside the widget, using external communication channels.</p>
+</blockquote>
+
+<h4>AI Queries:</h4>
+
+<ul>
+<li><strong>Need/Capability Matching:</strong> Send user's needs and capabilities (from Cooperation data) to Gemini AI API. Expect a list of potential matches with confidence scores.</li>
+<li><strong>Network Growth Analysis:</strong> Request aggregated network data (user count over time) from the API and send it to Gemini AI for analysis and trend prediction.</li>
+</ul>
+
+<h4>User Stories:</h4>
+
+<p><code>
+As a participant
+I want AI-powered insights
+So that I can find optimal cooperation opportunities and manage targeted communications
+</code></p>
+
+<h2>3. Technical Architecture</h2>
+
+<h3>3.1 Core Data Structures</h3>
+
+<p>```typescript
+interface Action {
+    type: 'OBLIGATION<em>FULFILLED' | 'OBLIGATION</em>MISSED' | 'INITIATIVE<em>CREATED' | 'INITIATIVE</em>SUPPORTED';
+    timestamp: number;
+    relatedId?: string; // Unique identifier of the related obligation/initiative
+    amount?: number;    // Amount associated with the action (e.g., help provided)
+    description?: string; // Additional details about the action
+}</p>
+
+<p>interface Connection {
+    participantId: string; // Unique identifier of the connected participant
+    timestamp: number;     // Timestamp when the connection was established
+}</p>
+
+<p>interface ReputationScore {
+    score: number; // Reputation score
+    lastUpdated: number; // Last update timestamp
+    positiveActionsCount: number; // Count of positive actions
+    negativeActionsCount: number; // Count of negative actions
+    actionsLog: Action[]; // Log of all actions affecting reputation
+}</p>
+
+<p>interface Participant {
+    id: string; // Unique identifier (UUID)
+    invitedBy: string; // ID of the inviter
+    handshakePath: string[]; // Sequence of handshake IDs
+    timestamp: number; // Timestamp of registration
+    connections: Connection[]; // Fetched on demand
+    reputation: ReputationScore; // Fetched on demand
+}</p>
+
+<p>interface Obligation {
+    id: string; // Unique identifier (UUID)
+    type: 'SOS' | 'REGULAR';
+    amount: number; // Amount requested
+    requesterId: string; // ID of the participant requesting assistance
+    participantId: string; // ID of the participant fulfilling the obligation
+    status: 'PENDING' | 'FULFILLED';
+    externalLink?: string; // Optional external discussion link
+    timestamp: number; // Timestamp of creation
+}</p>
+
+<p>interface Initiative {
+    id: string; // Unique identifier (UUID)
+    creatorId: string; // ID of the creator
+    description: string; // Initiative description
+    goal: number; // Fundraising goal
+    currentAmount: number; // Current amount raised
+    status: 'ACTIVE' | 'COMPLETED' | 'CANCELLED';
+    participants: string[]; // List of participant IDs
+    externalLink?: string; // Optional external link for more information
+}</p>
+
+<p>interface Cooperation {
+    id: string; // Unique identifier (UUID)
+    type: 'NEED' | 'OFFER';
+    participantId: string; // ID of the participant
+    description: string; // Description of the need or offer
+    tags: string[]; // Tags for categorization
+    amount?: number; // Optional amount associated
+    status: 'ACTIVE' | 'MATCHED' | 'COMPLETED';
+}</p>
+
+<p>interface Crowdfunding {
+    id: string; // Unique identifier (UUID)
+    type: 'SOS' | 'REGULAR' | 'INITIATIVE';
+    creatorId: string; // ID of the creator
+    goal: number; // Fundraising goal
+    currentAmount: number; // Current amount raised
+    participants: string[]; // List of participant IDs
+    uniqueCode: string; // Unique code for sharing the campaign
+    status: 'ACTIVE' | 'COMPLETED' | 'CANCELLED';
+    externalLink?: string; // Optional external link for more information
+}
+```</p>
+
+<h3>3.2 API Endpoints</h3>
+
+<p>```typescript
+// Registry Management
+POST /api/participants/register  // POST: Register a new participant
+GET /api/participants/{id}/connections // GET: Get participant's connections
+GET /api/participants/{id}/handshakes // GET: Get participant's handshake path</p>
+
+<p>// Assistance Management
+POST /api/assistance/sos // POST: Create an SOS request
+POST /api/assistance/regular // POST: Create a regular assistance request
+PUT /api/obligations/{id}/fulfill // PUT: Mark an obligation as fulfilled
+GET /api/obligations/{id}/status // GET: Get the status of an obligation</p>
+
+<p>// Cooperation Management
+POST /api/initiatives/create // POST: Create a new initiative
+POST /api/initiatives/{id}/join // POST: Join an existing initiative
+GET /api/cooperation/matches // GET: Find matching cooperation opportunities
+POST /api/cooperation/clear // POST: Clear a cooperation entry</p>
+
+<p>// Crowdfunding Management
+GET /api/crowdfunding/{id}/status // GET: Get the status of a crowdfunding campaign
+POST /api/crowdfunding/{id}/share // POST: Generate a shareable link for a crowdfunding campaign
+```</p>
+
+<h3>3.5 API Design</h3>
+
+<p><strong>Base URL:</strong> <code>/api/v1</code></p>
+
+<p><strong>Endpoints:</strong>
+- <strong>GET /participants/{id}/connections</strong>:
+  - <strong>Request:</strong> None
+  - <strong>Response (JSON):</strong>
+    <code>json
+    [
+      { "participantId": "user123", "timestamp": 1678886400 },
+      { "participantId": "user456", "timestamp": 1678972800 }
+    ]
+</code>
+  - <strong>HTTP Status Codes:</strong> 200 OK, 404 Not Found</p>
+
+<ul>
+<li><strong>POST /api/assistance/sos</strong>:
+<ul>
+<li><strong>Request (JSON):</strong>
+<code>json
+{
+  "amount": 1000,
+  "externalLink": "https://example.com/help"
+}
+</code></li>
+<li><strong>Response (JSON):</strong>
+<code>json
+{ "id": "sos123", "status": "ACTIVE" }
+</code></li>
+<li><strong>HTTP Status Codes:</strong> 201 Created, 400 Bad Request
+```</li>
+</ul></li>
+</ul>
+
+<h3>4.4 Data Handling</h3>
+
+<ul>
+<li>Data fetched from APIs is dynamically displayed in the widget and is not permanently stored locally.</li>
+<li>Minimal caching may be implemented for frequently accessed data, such as user profiles, to minimize API requests and improve performance.</li>
+<li>All sensitive operations rely on secure API endpoints.</li>
+</ul>
