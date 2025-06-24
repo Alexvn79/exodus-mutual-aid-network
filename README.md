@@ -117,8 +117,7 @@ This section is vital for developers and architects. It delves into the underlyi
     *   Data organization
     *   Access protocols
 
-## 3 Implementation <a id="#user-content-3-implementation" class="anchor" aria-label="Permalink: 3 Implementation" href="#user-content-3-implementation"> 
-
+## 3 Implementation
    
 Practical guides and integration materials for deploying and interacting with DSI Exodus 2.0.
 This section provides hands-on information for developers looking to set up, configure, and integrate with Exodus 2.0. It covers the practical aspects of bringing the theoretical framework to life.
