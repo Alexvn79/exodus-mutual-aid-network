@@ -1,10 +1,5 @@
-</div>
 <kbd><img src="docs/images/MainPage.png" /></kbd></br></br>
 
-//<details>
-<summary>Documentation</summary>
-<kbd><img src="docs/images/Example.png" width="500" /></kbd>
-</details>//
 <p align="center">
    <br />
    <br />
