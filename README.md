@@ -20,18 +20,18 @@ Welcome to the official documentation repository for Exodus 2.0, a digital socia
 
 ## Table of Contents:
 
-- [Overview](#user-content-what-is-exodus)
-- [Repository Structure](#user-content-repository-structure) <br />
+- [Overview](#what-is-exodus)
+- [Repository Structure](#repository-structure) <br />
   Documentation: <br />
-- [Core documents](#user-content-1-core-documents)
-- [Technical documentation](#user-content-2-technical-documentation)
-- [Implementation](#user-content-3-implementation)
-- [Research & Theory](#user-content-4-research-and-theory)
-- [Additional Materials](#user-content-5-additional-materials)
-- [Reference Materials](#user-content-reference-materials)
-- [Contributing](#user-content-contributing)
-- [Code of Conduct](#user-content-code-of-conduct)
-- [License](#user-content-license)
+- [Core documents](#1-core-documents)
+- [Technical documentation](#2-technical-documentation)
+- [Implementation](#3-implementation)
+- [Research & Theory](#4-research-and-theory)
+- [Additional Materials](#5-additional-materials)
+- [Reference Materials](#reference-materials)
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
+- [License](#license)
   
 <details>
 <summary>Overview</summary>
