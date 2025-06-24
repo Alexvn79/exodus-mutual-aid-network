@@ -98,9 +98,7 @@ Essential materials defining Exodus 2.0's vision, mechanisms, and features.
    - Implementation progress
    - Future roadmap
      
-<a id="#user-content-2-technical-documentation" class="anchor" aria-label="Permalink: 2 Technical Documentation" href="#user-content-2-technical-documentation"></a>
 ## 2 Technical Documentation
-
 
 Detailed technical specifications and architectural documentation for DSI Exodus 2.0.
 This section is vital for developers and architects. It delves into the underlying structure and technical design of Exodus 2.0, explaining how its unique "trust-irrelevant" and self-organizing properties are implemented at a technical level.
@@ -138,7 +136,6 @@ This section provides hands-on information for developers looking to set up, con
     *   Implementation examples
     *   Success stories
       
-<a id="#user-content-4-research-and-theory" class="anchor" aria-label="Permalink: 4 Research and Theory" href="#user-content-4-research-and-theory"></a>
 ## 4 Research and Theory
 
 The academic foundation and theoretical framework underpinning DSI Exodus 2.0.
@@ -156,7 +153,6 @@ This section is for developers and researchers interested in the profound mathem
     *   Detailed analysis of network growth patterns and scaling principles [1]
     *   Network dynamics and the "friend of my friend" principle [1]
 
-<a id="#user-content-5-additional-materials" class="anchor" aria-label="Permalink: 5 Additional Materials" href="#user-content-5-additional-materials"></a>
 ## 5 Additional Materials
    
 Contextual and supplementary information about DSI Exodus 2.0.
@@ -175,7 +171,6 @@ This section provides broader context for Exodus 2.0, exploring its historical, 
     *   Global perspectives
     *   Social impact
 
-<a id="#user-content-reference-materials" class="anchor" aria-label="Permalink: Reference Materials" href="#user-content-reference-materials"></a>
 ## Reference Materials
 
    Glossaries and comprehensive reference documents for DSI Exodus 2.0.
