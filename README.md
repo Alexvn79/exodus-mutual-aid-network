@@ -23,11 +23,11 @@ Welcome to the official documentation repository for Exodus 2.0, a digital socia
 - [Overview](#what-is-exodus)
 - [Repository Structure](#repository-structure) <br />
   Documentation: <br />
-- [Core documents](#1-core-documents)
-- [Technical documentation](#2-technical-documentation)
-- [Implementation](#3-implementation)
-- [Research & Theory](#4-research-and-theory)
-- [Additional Materials](#5-additional-materials)
+- [Core documents](#core-documents)
+- [Technical documentation](#technical-documentation)
+- [Implementation](#implementation)
+- [Research & Theory](#research-and-theory)
+- [Additional Materials](#additional-materials)
 - [Reference Materials](#reference-materials)
 - [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)
@@ -72,7 +72,7 @@ Exodus 2.0 is designed to solve some big problems:
 <details>
 <summary>Documentation</summary>
    
-## 1 Core Documents 
+## Core Documents 
    
 Essential materials defining Exodus 2.0's vision, mechanisms, and features.
 ### Contents
@@ -93,7 +93,7 @@ Essential materials defining Exodus 2.0's vision, mechanisms, and features.
    - Implementation progress
    - Future roadmap
      
-## 2 Technical Documentation
+## Technical Documentation
 
 Detailed technical specifications and architectural documentation for DSI Exodus 2.0.
 This section is vital for developers and architects. It delves into the underlying structure and technical design of Exodus 2.0, explaining how its unique "trust-irrelevant" and self-organizing properties are implemented at a technical level.
@@ -112,7 +112,7 @@ This section is vital for developers and architects. It delves into the underlyi
     *   Data organization
     *   Access protocols
 
-## 3 Implementation
+## Implementation
    
 Practical guides and integration materials for deploying and interacting with DSI Exodus 2.0.
 This section provides hands-on information for developers looking to set up, configure, and integrate with Exodus 2.0. It covers the practical aspects of bringing the theoretical framework to life.
@@ -130,7 +130,7 @@ This section provides hands-on information for developers looking to set up, con
     *   Implementation examples
     *   Success stories
       
-## 4 Research and Theory
+## Research and Theory
 
 The academic foundation and theoretical framework underpinning DSI Exodus 2.0.
 This section is for developers and researchers interested in the profound mathematical and sociological principles that guarantee Exodus 2.0's unique properties, such as its "trust irrelevance" and "autocatalytic" growth. Understanding these theories provides deep insight into the system's inherent robustness and inevitability.
@@ -147,7 +147,7 @@ This section is for developers and researchers interested in the profound mathem
     *   Detailed analysis of network growth patterns and scaling principles [1]
     *   Network dynamics and the "friend of my friend" principle [1]
 
-## 5 Additional Materials
+## Additional Materials
    
 Contextual and supplementary information about DSI Exodus 2.0.
 This section provides broader context for Exodus 2.0, exploring its historical, philosophical, and cultural underpinnings. While not directly technical, these materials offer valuable insights into the project's vision for societal transformation, which can inspire and guide contributors.
