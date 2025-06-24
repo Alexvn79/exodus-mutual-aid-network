@@ -78,7 +78,6 @@ Exodus 2.0 is designed to solve some big problems:
 <summary>Documentation</summary>
    
 ## 1 Core Documents 
-<a id="#user-content-1-core-documents" class="anchor" aria-label="Permalink: 1 Core Documents" href="#user-content-1-core-documents">
    
 Essential materials defining Exodus 2.0's vision, mechanisms, and features.
 ### Contents
