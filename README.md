@@ -81,21 +81,29 @@ Exodus 2.0 is designed to solve some big problems:
 Essential materials defining Exodus 2.0's vision, mechanisms, and features.
 ### Contents
 1. `1.1_Vision_and_Overview.pdf`
-   - Core concept introduction
-   - System objectives
-   - Key principles
+   *   Core concept introduction
+   *   System objectives
+   *   Key principles
 2. `1.2_Core_Mechanisms.pdf`
-   - Fundamental processes
-   - System architecture
-   - Operational principles
+   *   Fundamental processes
+   *   System architecture
+   *   Operational principles
 3. `1.3_Unique_Features.pdf`
-   - Distinguishing characteristics
-   - Comparative advantages
-   - Innovation aspects
+   *   Distinguishing characteristics
+   *   Comparative advantages
+   *   Innovation aspects
 4. `1.4_Current_Status.pdf`
-   - Development stage
-   - Implementation progress
-   - Future roadmap
+   *   Development stage
+   *   Implementation progress
+   *   Future roadmap
+5. `1.5_Trust_Irrelevance_and_Simplicity.md`
+   *   Outlines Exodus 2.0 individual use cases
+   *   System records obligations, not transactions
+   *   Trust irrelevant, simple, secure design
+6. `1.6_Unique_Features.pdf`
+   *   Fundamental unique aspects of Exodus 2.0
+   *   Contrasts Exodus 2.0 with other decentralized systems
+   *   Core philosophy of social interaction over technology
      
 ## 2 Technical Documentation
 
@@ -103,7 +111,7 @@ Detailed technical specifications and architectural documentation for DSI Exodus
 This section is vital for developers and architects. It delves into the underlying structure and technical design of Exodus 2.0, explaining how its unique "trust-irrelevant" and self-organizing properties are implemented at a technical level.
 ### Contents
 
-1.  `2.1_Technical_Specification.md`
+1.  `2.1_Technical_Specification.md` and `2.1_Technical_Specification.pdf`
     *   System requirements
     *   API documentation (if applicable)
     *   Implementation details
@@ -125,10 +133,10 @@ This section provides hands-on information for developers looking to set up, con
     *   Step-by-step setup
     *   Configuration guidelines
     *   Best practices
-2.  `3.2_Google_Integration.pdf`
-    *   Details on integrating with Google services (e.g., Google Sheets for the distributed ledger, Gemini AI for analytics) [1]
-    *   API setup (if applicable)
-    *   Configuration details
+2.  `3.2_Interface_and_AI.md`
+    *   Minimal interface, AI assistance.
+    *   AI for monitoring, matching.
+    *   User control, privacy, efficiency.
 3.  `3.3_Use_Cases.pdf`
     *   Real-world applications
     *   Implementation examples
@@ -164,25 +172,17 @@ This section provides broader context for Exodus 2.0, exploring its historical, 
     *   Philosophical foundations
     *   Conceptual framework
     *   Ethical considerations
-3.  `5.3_Cultural_Perspectives.pdf`
-    *   Cultural implications
-    *   Global perspectives
-    *   Social impact
 
 ## Reference Materials
 
    Glossaries and comprehensive reference documents for DSI Exodus 2.0.
 This section provides essential reference materials to clarify terminology and offer comprehensive overviews, ensuring all contributors and users have a shared understanding of Exodus 2.0's unique concepts.
 ### Contents
-1.  `Glossary_EN.pdf`
+1.  `Glossary.pdf`
     *   English terminology
     *   Concept definitions
     *   Technical terms
-2.  `Glossary_RU.pdf`
-    *   Russian terminology
-    *   Concept definitions
-    *   Technical terms
-3.  `Full_Presentation.pdf`
+2.  `Full_Presentation.pdf`
     *   Complete system overview
     *   Visual representations
     *   Comprehensive explanations
