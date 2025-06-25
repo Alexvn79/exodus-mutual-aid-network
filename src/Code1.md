@@ -1,4 +1,4 @@
 
 <p align="center">
-Note developed yet
+Not developed yet
 </p>
