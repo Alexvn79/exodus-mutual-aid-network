@@ -3,6 +3,7 @@
 <p align="center">
    <br />
    <br />
+   <a href="Images/nextstep.png"><img src="https://img.shields.io/badge/dev-progress-yellow.svg?style=flat" alt="Next step of development"></a>
    <a href="https://exodus.tilda.ws/exodus20breef"><img src="https://img.shields.io/badge/Exodus_2.0-breef-green.svg?style=flat" alt="Exodus 2.0 breef"></a>
    <a href="https://medium.com/@andrei.lubalin"><img src="https://img.shields.io/badge/article-medium-orange.svg" alt="Articles in medium about Exodus 2.0"></a>
    <a href="http://choosealicense.com/licenses/agpl-3.0/"><img src="https://img.shields.io/badge/license-AGPL--3.0-red.svg?style=flat" alt="AGPL-3.0 License"></a>
