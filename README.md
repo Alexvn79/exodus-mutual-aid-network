@@ -23,8 +23,7 @@ Welcome to the official documentation repository for Exodus 2.0, a digital socia
 ## Table of Contents:
 
 - [Overview](#what-is-exodus)
-- [Repository Structure](#repository-structure) <br />
-  Documentation: <br />
+- [Repository Structure](#repository-structure)
 - [Core documents](#1-core-documents)
 - [Technical documentation](#2-technical-documentation)
 - [Implementation](#3-implementation)
@@ -64,7 +63,7 @@ Exodus 2.0 is designed to solve some big problems:
 - `docs/4_Research_Theory/` - Academic research and theoretical foundation
 - `docs/5_Additional_Materials/` - Supporting context and perspectives
 - `docs/Reference/` - Glossaries and reference materials
-- `images/` - Innovation visual media
+- `Images/` - Innovation visual media
 - `vid/` - Videos about innovation
 - `src/` - Developed code
 - `Law of р2р Trust-free cooperation.docx` - Scientific explanations, proofs and necessary base.
