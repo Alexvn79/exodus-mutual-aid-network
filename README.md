@@ -1,4 +1,4 @@
-<kbd><img src="Знімок екрана 2025-06-24 222019.png" /></kbd>
+<kbd><img src="Images/Exodus head.png" /></kbd>
 
 <p align="center">
    <br />
