@@ -3,7 +3,6 @@
 <p align="center">
    <br />
    <br />
-  
    <a href="https://exodus.tilda.ws/exodus20breef"><img src="https://img.shields.io/badge/Exodus_2.0-breef-green.svg?style=flat" alt="Exodus 2.0 breef"></a>
    <a href="http://choosealicense.com/licenses/agpl-3.0/"><img src="https://img.shields.io/badge/license-AGPL--3.0-red.svg?style=flat" alt="AGPL-3.0 License"></a>
    <a href="https://drive.google.com/drive/folders/13CP_gggqIFxYNSR7QphnjMta-S0DmrVk?usp=sharing"><img src="https://img.shields.io/badge/docs-passing-dark_green.svg" alt="Documentation Status"></a>
@@ -40,6 +39,10 @@ Welcome to the official documentation repository for Exodus 2.0, a digital socia
 
 Imagine a social network where people help each other directly, without needing a big company in the middle. That's DSI Exodus 2.0. It's a decentralized, peer-to-peer (P2P) network built on the idea of mutual aid and cooperation among people who already trust each other, like friends and family. Think of it as a "smart notebook" that helps you keep track of who needs help, who offers it, and who fulfills their promises.   
 
+<p align="center">
+<kbd><img src="Images/new paradigm.png" /></kbd>
+</p>
+
 ## Why do we need it
 
 Exodus 2.0 is designed to solve some big problems:
@@ -49,6 +52,10 @@ Exodus 2.0 is designed to solve some big problems:
 - Build a strong reputation: By helping others and fulfilling your commitments, you build a visible reputation within the network. This reputation helps you get support when you need it.   
 - Community-driven: It's a self-organizing system where the community manages itself, reducing the need for central control.   
 
+<p align="center">
+<kbd><img src="Images/paradoxoftrust.png" /></kbd>
+</p>
+
 ## Repository Structure
 
 - `docs/1_Core_Documents/` - Foundation and overview materials
@@ -57,7 +64,9 @@ Exodus 2.0 is designed to solve some big problems:
 - `docs/4_Research_Theory/` - Academic research and theoretical foundation
 - `docs/5_Additional_Materials/` - Supporting context and perspectives
 - `docs/Reference/` - Glossaries and reference materials
-- `images/` - Project visual media
+- `images/` - Innovation visual media
+- `vid/` - Videos about innovation
+- `src/` - Developed code
 - `Law of р2р Trust-free cooperation.docx` - Scientific explanations, proofs and necessary base.
 
 ## Quick Start
