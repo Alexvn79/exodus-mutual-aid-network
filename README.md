@@ -1,4 +1,4 @@
-<kbd><img src="Знімок екрана 2025-06-24 222019.png" /></kbd></br></br>
+<kbd><img src="Знімок екрана 2025-06-24 222019.png" /></kbd>
 
 <p align="center">
    <br />
