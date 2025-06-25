@@ -136,7 +136,7 @@ This section provides hands-on information for developers looking to set up, con
     *   Minimal interface, AI assistance.
     *   AI for monitoring, matching.
     *   User control, privacy, efficiency.
-3.  `3.3_Use_Cases.pdf`
+3.  `3.3_Use_Cases.md`
     *   Real-world applications
     *   Implementation examples
     *   Success stories
