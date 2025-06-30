@@ -4,7 +4,7 @@
    <br />
    <br />
    <a href="https://exodus.tilda.ws/exodus20breef"><img src="https://img.shields.io/badge/Exodus_2.0_breef-blue.svg?style=flat" alt="Exodus 2.0 breef"></a>
-   <a href="exodus-mutual-aid-network/LICENSE"><img src="https://img.shields.io/badge/license-MIT-red.svg?style=flat" alt="MIT License"></a>
+   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-red.svg?style=flat" alt="MIT License"></a>
    <a href="https://drive.google.com/drive/folders/13CP_gggqIFxYNSR7QphnjMta-S0DmrVk?usp=sharing"><img src="https://img.shields.io/badge/docs-passing-dark_green.svg" alt="Documentation Status"></a>
    <a href="https://drive.google.com/drive/folders/13CP_gggqIFxYNSR7QphnjMta-S0DmrVk?usp=sharing"><img src="https://img.shields.io/badge/code-searching_for_developer-dark_green.svg" alt="Code Status"></a>
    <a href="https://drive.google.com/file/d/1PesAz9e9EryGAzxUqzBvDSeizVEdaXSs/view"><img src="https://img.shields.io/badge/visualisation-watch-purple.svg?style=flat" alt="touch if you want to watch visualisation"></a>
