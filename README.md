@@ -10,6 +10,7 @@
    <a href="https://drive.google.com/file/d/1PesAz9e9EryGAzxUqzBvDSeizVEdaXSs/view"><img src="https://img.shields.io/badge/visualisation-watch-purple.svg?style=flat" alt="touch if you want to watch visualisation"></a>
    <a href="Images/nextstep.png"><img src="https://img.shields.io/badge/dev_progress-yellow.svg?style=flat" alt="Next step of development"></a>
    <a href="https://medium.com/@andrei.lubalin"><img src="https://img.shields.io/badge/article-medium-orange.svg" alt="Articles in medium about Exodus 2.0"></a>
+   <a href="https://www.youtube.com/watch?v=4T8omBLrbbM&ab_channel=TEDxTalks"><img src="https://img.shields.io/youtube/channel/views/UCsT0YIqwnpJCM-mx7-gSA4Q" alt="How to change society in just a few handshakes"></a>
    <br />
    <br />
    <i>Digital Societal innovation</i>
