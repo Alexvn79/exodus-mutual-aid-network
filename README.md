@@ -229,5 +229,5 @@ Using welcoming and inclusive language. We’re accepting of all who wish to tak
 - Other conduct that is inappropriate for a professional audience including people of many different backgrounds Community members asked to stop any inappropriate behavior are expected to comply immediately.
 
    ## License
-By contributing to DSI Exodus 2.0, you agree that your contributions will be licensed under the project's GNU Affero General Public License v3.0. DSI Exodus 2.0 is open source and explicitly free for copying, modification, and redistribution. More info you can find in LICENSE.txt.
+By contributing to DSI Exodus 2.0, you agree that your contributions will be licensed under the MIT License. DSI Exodus 2.0 is open source and explicitly free for copying, modification, and redistribution. More info you can find in LICENSE.txt.
 
