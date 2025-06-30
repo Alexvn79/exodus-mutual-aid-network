@@ -1,4 +1,4 @@
-<kbd><img src="Images/Exodus head.png" /></kbd>
+<kbd><img src="Images/Exodus head.png"/></kbd>
 
 <p align="center">
    <br />
