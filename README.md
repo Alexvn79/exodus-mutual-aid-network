@@ -19,9 +19,10 @@
 </p>
 <hr />
 
-# Exodus 2.0 Documentation
+# DSI Exodus 2.0 Documentation
 
-Welcome to the official documentation repository for Exodus 2.0, a digital social innovation for decentralized trust networks.
+Welcome to the official documentation repository for DSI Exodus 2.0, a Digital Societal Innovation that enables self-organization into a global peer-to-peer trust network with mathematically proven inevitability. 
+Here you’ll find everything from conceptual justification to technical details and implementation guides.
 
 ## Table of Contents:
 
