@@ -71,127 +71,45 @@ This guarantees autocatalytic and irreversible growth of such a network.
      
 ## 2 Technical Documentation
 
-Detailed technical specifications and architectural documentation for DSI Exodus 2.0.
-This section is vital for developers and architects. It delves into the underlying structure and technical design of Exodus 2.0, explaining how its unique "trust-irrelevant" and self-organizing properties are implemented at a technical level.
-### Contents
-
-1.  `2.1_Technical_Specification.md` and `2.1_Technical_Specification.pdf`
-    *   System requirements
-    *   API documentation (if applicable)
-    *   Implementation details
-2.  `2.2_Network_Architecture.pdf`
-    *   Network topology
-    *   Connection protocols
-    *   System components
-3.  `2.3_Reference_Registry_Guide.pdf`
-    *   Registry structure
-    *   Data organization
-    *   Access protocols
+1.  `2.1_Technical_Specification.md/pdf` — Requirements, API, implementation details
+2.  `2.2_Network_Architecture.pdf` — Network topology, protocols and components
+3.  `2.3_Reference_Registry_Guide.pdf` — Registry format and structure, access protocol
 
 ## 3 Implementation
    
-Practical guides and integration materials for deploying and interacting with DSI Exodus 2.0.
-This section provides hands-on information for developers looking to set up, configure, and integrate with Exodus 2.0. It covers the practical aspects of bringing the theoretical framework to life.
-### Contents
-1.  `3.1_Implementation_Guide.pdf`
-    *   Step-by-step setup
-    *   Configuration guidelines
-    *   Best practices
-2.  `3.2_Interface_and_AI.md`
-    *   Minimal interface, AI assistance.
-    *   AI for monitoring, matching.
-    *   User control, privacy, efficiency.
-3.  `3.3_Use_Cases.md`
-    *   Real-world applications
-    *   Implementation examples
-    *   Success stories
+1.  `3.1_Implementation_Guide.pdf` — Step-by-step instructions for deployment and configuration
+2.  `3.2_Interface_and_AI.md` — Interface, AI assistant, monitoring and selection of tasks
+3.  `3.3_Use_Cases.md` — Examples of real-life applications and success stories
       
 ## 4 Research and Theory
 
-The academic foundation and theoretical framework underpinning DSI Exodus 2.0.
-This section is for developers and researchers interested in the profound mathematical and sociological principles that guarantee Exodus 2.0's unique properties, such as its "trust irrelevance" and "autocatalytic" growth. Understanding these theories provides deep insight into the system's inherent robustness and inevitability.
-### Contents
-1.  `4.1_Mathematical_Foundation.pdf`
-    *   Mathematical proofs (e.g., for inevitable network growth, trust irrelevance) [1, 1]
-    *   Network growth models (e.g., $N(l)=k^{\wedge}l$) [1, 1]
-    *   Theoretical validations
-2.  `4.2_Trust_Paradox.pdf`
-    *   Exploration of why traditional trust mechanisms are obsolete in Exodus 2.0 [1, 1]
-    *   System security implications
-    *   Theoretical implications of "trust irrelevance" [1, 1]
-3.  `4.3_Network_Growth_Theory.pdf`
-    *   Detailed analysis of network growth patterns and scaling principles [1]
-    *   Network dynamics and the "friend of my friend" principle [1]
+1.  `4.1_Mathematical_Foundation.pdf` — Evidence for the Law of Autocatalytic Inevitability and the Mechanism of Trust Neutrality
+2.  `4.2_Trust_Paradox.pdf` — Why Traditional Trust Mechanisms Are Outdated
+3.  `4.3_Network_Growth_Theory.pdf` — Network growth models and the “friend-of-friend” principle
 
 ## 5 Additional Materials
    
-Contextual and supplementary information about DSI Exodus 2.0.
-This section provides broader context for Exodus 2.0, exploring its historical, philosophical, and cultural underpinnings. While not directly technical, these materials offer valuable insights into the project's vision for societal transformation, which can inspire and guide contributors.
-### Contents
-1.  `5.1_Historical_Context.pdf`
-    *   Historical background of mutual aid systems
-    *   Comparison with similar systems
-    *   Evolution of the Exodus 2.0 concept
-2.  `5.2_Philosophical_Background.pdf`
-    *   Philosophical foundations
-    *   Conceptual framework
-    *   Ethical considerations
+1.  `5.1_Historical_Context.pdf` — The history of mutual aid and the evolution of the Exodus idea
+2.  `5.2_Philosophical_Background.pdf` — Philosophical and ethical foundations
 
 ## Reference Materials
 
-   Glossaries and comprehensive reference documents for DSI Exodus 2.0.
-This section provides essential reference materials to clarify terminology and offer comprehensive overviews, ensuring all contributors and users have a shared understanding of Exodus 2.0's unique concepts.
-### Contents
-1.  `Glossary.pdf`
-    *   English terminology
-    *   Concept definitions
-    *   Technical terms
-2.  `Full_Presentation.pdf`
-    *   Complete system overview
-    *   Visual representations
-    *   Comprehensive explanations
+1.  `Glossary.pdf` — Terms and definitions
+2.  `Full_Presentation.pdf` — Full presentation with visual materials
 
    ## Contributing
 
-First, thank you for considering contributing to Exodus. We value contributions of any size or type from anyone! The smallest of fixes can make the biggest difference. Please dive in. Feel free to ask questions on the 5061197@gmail.com email, open an issue, or send a pull request on GitHub.
-We follow an agile development process. If you run into a bug or have a problem, the best action is to open an issue on GitHub (please search for related closed issues first).
-If you're interested in helping out with the development cycle, feel free to tackle open issues. If you see something you'd like to help with, reach out to us on 5061197@gmail.com to coordinate.
+We appreciate any contribution!
+1.	Fork the repository and create a branch.
+2.	Make your changes and submit a Pull Request.
+3.	For discussion, open an Issue or write to5061197@gmail.com.
+
 
    ## Code of Conduct
-      
-Be excellent to each other; we’re a community after all. If you run into issues with others in our community, please contact a Exodus Community Dev, or Moderator.
-   ### Purpose
-   The Exodus Community includes members of varying skills, languages, personalities, cultural backgrounds, and experiences from around the globe. Through these differences, we continue to grow and collectively improve upon an open-source animation engine. When working in a community, it is important to remember that you are interacting with humans on the other end of your screen. This code of conduct will guide your interactions and keep Exodus a positive environment for our developers, users, and fundamentally our growing community.
-   ### Our Community
-   Members of Exodus Community are respectful, open, and considerate. Behaviors that reinforce these values contribute to our positive environment, and include:
-Being respectful. Respectful of others, their positions, experiences, viewpoints, skills, commitments, time, and efforts.
-Being open. Open to collaboration, whether it’s on problems, Pull Requests, issues, or otherwise.
-Being considerate. Considerate of their peers – other Exodus users and developers.
-Focusing on what is best for the community. We’re respectful of the processes set forth in the community, and we work within them.
-Showing empathy towards other community members. We’re attentive in our communications, whether in person or online, and we’re tactful when approaching differing views.
-Gracefully accepting constructive criticism. When we disagree, we are courteous in raising our issues.
-Using welcoming and inclusive language. We’re accepting of all who wish to take part in our activities, fostering an environment where anyone can participate and everyone can make a difference.
-   ### Our Standards
-   Every member of our community has the right to have their identity respected. Exodus Community is dedicated to providing a positive environment for everyone, regardless of age, gender identity and expression, sexual orientation, disability, physical appearance, body size, ethnicity, nationality, race, religion (or lack thereof), education, or socioeconomic status.
-   ### Inappropriate Behavior
-   - Examples of unacceptable behavior by participants include:
-- Harassment of any participants in any form
-- Deliberate intimidation, stalking, or following
-- Logging or taking screenshots of online activity for harassment purposes
-- Publishing others’ private information, such as a physical or electronic address, without explicit permission
-- Violent threats or language directed against another person
-- Incitement of violence or harassment towards any individual, including encouraging a person to commit suicide or to engage in self-harm
-- Creating additional online accounts in order to harass another person or circumvent a ban
-- Sexual language and imagery in online communities or any conference venue, including talks
-- Insults, put-downs, or jokes that are based upon stereotypes, that are exclusionary, or that hold others up for ridicule
-- Excessive swearing
-- Unwelcome sexual attention or advances
-- Unwelcome physical contact, including simulated physical contact (eg, textual descriptions like “hug” or “backrub”) without consent or after a request to stop
-- Pattern of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
-- Sustained disruption of online community discussions, in-person presentations, or other in-person events
-- Continued one-on-one communication after requests to cease
-- Other conduct that is inappropriate for a professional audience including people of many different backgrounds Community members asked to stop any inappropriate behavior are expected to comply immediately.
+    
+Respect, openness and inclusion are the foundation of our community. Find out more in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT).
+     
 
    ## License
-By contributing to DSI Exodus 2.0, you agree that your contributions will be licensed under the MIT License. DSI Exodus 2.0 is open source and explicitly free for copying, modification, and redistribution. More info you can find in LICENSE.txt.
+The project and documentation are distributed under the MIT License. More details in [LICENSE.txt](LICENSE).
 
