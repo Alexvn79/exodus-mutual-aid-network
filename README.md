@@ -26,7 +26,7 @@ Here you’ll find everything from conceptual justification to technical details
 
 ## Table of Contents:
 
-- [Overview](#what-is-exodus)
+- [Overview](#overview)
 - [Repository Structure](#repository-structure)
 - [Core documents](#1-core-documents)
 - [Technical documentation](#2-technical-documentation)
@@ -38,75 +38,36 @@ Here you’ll find everything from conceptual justification to technical details
 - [Code of Conduct](#code-of-conduct)
 - [License](#license)
    
-## What is Exodus
+## Overview
+DSI Exodus 2.0 is a digital societal innovation. The method of network self-organization is a mathematically proven breakthrough in social network theory that turns human cooperation from possible to inevitable. Unlike traditional social networks that rely on technology to manage trust, Exodus 2.0 makes trust structurally irrelevant through its unique architecture. The result is a decentralized referential reputation social network with an unlimited number of users — this is the first law of formation of trustless networks in history, described by the mathematical formula:
+<p align="center">(N(l) = k^l)</p>
+This guarantees autocatalytic and irreversible growth of such a network.
 
-Imagine a social network where people help each other directly, without needing a big company in the middle. That's DSI Exodus 2.0. It's a decentralized, peer-to-peer (P2P) network built on the idea of mutual aid and cooperation among people who already trust each other, like friends and family. Think of it as a "smart notebook" that helps you keep track of who needs help, who offers it, and who fulfills their promises.   
-
-<p align="center">
-<kbd><img src="Images/new paradigm.png" /></kbd>
-</p>
-
-## Why do we need it
-
-Exodus 2.0 is designed to solve some big problems:
-- No more trust issues: Unlike many systems where you worry about fraud, Exodus 2.0 is built so that harm is virtually impossible. It doesn't handle money directly, and all contributions are voluntary, so you don't have to constantly "verify" if someone is trustworthy in the traditional sense. The system's design makes it reliable by default.   
-- Easy mutual support: It helps people formalize their existing connections to create a wider network of support. If you need help, you can request it, and others in your network can offer assistance.   
-- Zero transaction costs: It aims to create new ways of cooperating where the costs of transactions are almost zero.   
-- Build a strong reputation: By helping others and fulfilling your commitments, you build a visible reputation within the network. This reputation helps you get support when you need it.   
-- Community-driven: It's a self-organizing system where the community manages itself, reducing the need for central control.   
-
-<p align="center">
-<kbd><img src="Images/paradoxoftrust.png" /></kbd>
 </p>
 
 ## Repository Structure
 
-- `docs/1_Core_Documents/` - Foundation and overview materials
-- `docs/2_Technical_Documentation/` - Technical specifications and architecture
-- `docs/3_Implementation/` - Implementation guides and practical materials
-- `docs/4_Research_Theory/` - Academic research and theoretical foundation
-- `docs/5_Additional_Materials/` - Supporting context and perspectives
-- `docs/Reference/` - Glossaries and reference materials
-- `Images/` - Innovation visual media
-- `vid/` - Videos about innovation
-- `src/` - Developed code
-- `Law of р2р Trust-free cooperation.docx` - Scientific explanations, proofs and necessary base.
-
-## Quick Start
-
-1. Begin with Core Documents to understand the basic concepts
-2. Move to Technical Documentation for system architecture
-3. Refer to Implementation guides for practical application
-4. Explore Research & Theory for deeper understanding
+- `docs/1_Core_Documents/`
+- `docs/2_Technical_Documentation/`
+- `docs/3_Implementation/`
+- `docs/4_Research_Theory/`
+- `docs/5_Additional_Materials/`
+- `docs/Reference/`
+- `Images/`
+- `vid/`
+- `src/`
+- `Law of р2р Trust-free cooperation.docx`
+- `LICENSE.txt`
+- `CODE_OF_CONDUCT.md`
  
 ## 1 Core Documents 
-   
-Essential materials defining Exodus 2.0's vision, mechanisms, and features.
-### Contents
-1. `1.1_Vision_and_Overview.pdf`
-   *   Core concept introduction
-   *   System objectives
-   *   Key principles
-2. `1.2_Core_Mechanisms.pdf`
-   *   Fundamental processes
-   *   System architecture
-   *   Operational principles
-3. `1.3_Unique_Features.pdf`
-   *   Distinguishing characteristics
-   *   Comparative advantages
-   *   Innovation aspects
-4. `1.4_Current_Status.pdf`
-   *   Development stage
-   *   Implementation progress
-   *   Future roadmap
-5. `1.5_Trust_Irrelevance_and_Simplicity.md`
-   *   Outlines Exodus 2.0 individual use cases
-   *   System records obligations, not transactions
-   *   Trust irrelevant, simple, secure design
-6. `1.6_Unique_Features.pdf`
-   *   Fundamental unique aspects of Exodus 2.0
-   *   Contrasts Exodus 2.0 with other decentralized systems
-   *   Core philosophy of social interaction over technology
+
+1. `1.1_Vision_and_Overview.pdf` — Concept, goals and principles of Exodus 2.0
+2. `1.2_Core_Mechanisms.pdf` — Self-organization processes and network structure
+3. `1.3_Unique_Features.pdf` — Unique features and comparative analysis
+4. `1.4_Current_Status.pdf` — Development status and roadmap
+5. `1.5_Trust_Irrelevance_and_Simplicity.md` — Explanation of “trust is not needed” and examples of use
+6. `1.6_Unique_Features.pdf` — Fundamental unique aspects of Exodus 2.0
      
 ## 2 Technical Documentation
 
