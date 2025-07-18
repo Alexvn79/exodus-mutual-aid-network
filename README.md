@@ -102,7 +102,7 @@ This guarantees autocatalytic and irreversible growth of such a network.
 We appreciate any contribution!
 1.	Fork the repository and create a branch.
 2.	Make your changes and submit a Pull Request.
-3.	For discussion, open an Issue or write to5061197@gmail.com.
+3.	For discussion, open an Issue or write to 5061197@gmail.com.
 
 
    ## Code of Conduct
